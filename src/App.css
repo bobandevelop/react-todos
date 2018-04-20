@@ -1,0 +1,60 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 1.5rem;
+  background-color: coral;
+  color: beige;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.Todo-App {
+  text-align: left;
+  padding-top: 20px;
+  display: inline-block;
+}
+
+input {
+  font-size: 20px;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+li span.delete-item {
+  visibility: hidden;
+}
+
+span.delete-item a {
+  text-decoration: none;
+  color: red;
+  font-family: sans-serif;
+}
+
+li:hover span.delete-item {
+  visibility: visible;
+}
+
+.error {
+  color: red;
+}
+
+.Footer a {
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+.Footer a.active {
+  font-weight: bold;
+}
